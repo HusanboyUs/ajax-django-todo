@@ -4,7 +4,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--65#)7s!30p+txb918!0x*^fe9dq%yx5!1jc@$k2di&@$o0ghz'
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ajax-django-todo.herokuapp.com/']
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
